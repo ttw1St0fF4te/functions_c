@@ -1,0 +1,4 @@
+﻿  functions_c.cpp
+C:\Users\User\Desktop\для колледжа\2 СЕМЕСТР\C++\functions_c\functions_c.cpp(8,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\User\Desktop\для колледжа\2 СЕМЕСТР\C++\functions_c\functions_c.cpp(57,22): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  functions_c.vcxproj -> C:\Users\User\Desktop\для колледжа\2 СЕМЕСТР\C++\functions_c\x64\Debug\functions_c.exe
