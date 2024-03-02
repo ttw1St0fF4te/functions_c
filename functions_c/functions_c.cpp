@@ -31,7 +31,7 @@ string removeConsonants(string word)
 {
 	string result = { };
 	string consonants = "qQwWrRtTpPsSdDfFgGhHjJkKlLzZxXcCvVbBnNmM";
-	for (int i = 0; i < sizeof(consonants); i++)
+	for (int i = 0; i < consonants.length; i++)
 	{
 		for (int k = 0; k < word.length(); k++)
 		{
@@ -54,7 +54,6 @@ string shuffle(string word)
 int main()
 {
 	setlocale(LC_ALL, "RUS");
-	std::srand(std::time(nullptr));
 
 	cout << "Введите действие:\n";
 	cout << "1 - Перевернуть слово \n2 - Удаление гласных \n3 - Удаление согласных \n4 - Перемещение букв в слове\n";
